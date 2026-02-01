@@ -1,0 +1,77 @@
+﻿[dotenv@17.2.3] injecting env (6) from .env -- tip: ≡ƒôí add observability to secrets: https://dotenvx.com/ops
+
+=== PROVENANCE LEDGER DATA SUMMARY ===
+
+SELLERS (9):
+  - devang (devang@gmail.com)
+  - Green Earth Recyclers (greenearth@wastex.com)
+  - Eco Waste Solutions Pvt Ltd (ecowaste@wastex.com)
+  - Mumbai Scrap Dealers (mumbaiscrap@wastex.com)
+  - Delhi Recycling Hub (delhirecycle@wastex.com)
+  - Bangalore E-Waste Center (blrewaste@wastex.com)
+  - Chennai Metal Works (chennaimetal@wastex.com)
+  - Pune Plastic Recyclers (puneplastic@wastex.com)
+  - Kolkata Paper Mills (kolkatapaper@wastex.com)
+
+BUYERS (6):
+  - ReCycle Industries (recycleindustries@wastex.com)
+  - EcoFriendly Manufacturing (ecofriendly@wastex.com)
+  - Green Future Corp (greenfuture@wastex.com)
+  - Sustainable Materials Co (sustainable@wastex.com)
+  - ReNew Plastics Ltd (renewplastics@wastex.com)
+  - Metal Reborn Industries (metalreborn@wastex.com)
+
+WASTE WORKERS (3):
+  - Rahul Kumar (rahul.worker@wastex.com)
+  - Priya Singh (priya.worker@wastex.com)
+  - Amit Sharma (amit.worker@wastex.com)
+
+LISTINGS BY STATUS:
+  - sold: 16
+  - approved: 11
+
+PURCHASES BY STATUS:
+  - delivered: 8
+  - collected: 2
+  - completed: 2
+  - confirmed: 3
+  - in_transit: 1
+
+PROVENANCE BLOCKS BY ACTION:
+  - SUBMITTED_FOR_REVIEW: 27
+  - APPROVED: 27
+  - IN_TRANSIT: 11
+  - DELIVERED: 10
+  - RECYCLED: 5
+  - REMANUFACTURED: 2
+  - CREATED: 27
+  - SOLD: 16
+  - COLLECTED: 13
+
+TOTAL TRANSACTIONS: 32
+
+=== SAMPLE PROVENANCE CHAIN ===
+Listing: Industrial E-Waste Batch - Batch 1
+Seller: Green Earth Recyclers
+Chain Length: 9 blocks
+  Block 1: CREATED by seller
+    Hash: 707fa4c6612372377e5d...
+  Block 2: SUBMITTED_FOR_REVIEW by seller
+    Hash: a1d606d03e65c96ecafd...
+  Block 3: APPROVED by admin
+    Hash: 87fefb105a5bd3a6b4a0...
+  Block 4: SOLD by buyer
+    Hash: e0a6559768a4b4dff46c...
+  Block 5: COLLECTED by waste_worker
+    Hash: ee453c60bebd786b33a1...
+  Block 6: IN_TRANSIT by waste_worker
+    Hash: d355fda29d695ab4fbe1...
+  Block 7: DELIVERED by buyer
+    Hash: d0c23901c76aeca9fae1...
+  Block 8: RECYCLED by buyer
+    Hash: 16fc4d83581f8856adae...
+  Block 9: REMANUFACTURED by buyer
+    Hash: 2d6d755ee0d0238fe5b7...
+
+Γ£à Verification Complete!
+
